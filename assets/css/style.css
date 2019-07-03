@@ -226,3 +226,18 @@ input[type=submit] {
  
 }
 
+@media screen and (max-width: 640px) {
+  .container,
+  #main-container,
+  #masthead,
+  .main-section,
+  .auth-image,
+  #logo,
+  nav {
+    width: 100%;
+  }
+
+  nav {
+    text-align: center;
+  }
+}
