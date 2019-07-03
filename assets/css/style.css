@@ -219,18 +219,22 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   #main-container {
-    width: 60%;
-    height: 60px;
+    width: 600px;
     margin-left: 0;
   }
  
 }
 
-@media screen and (max-width: 640px) {
-  .container,
+@media screen and (max-width: 768px) {  
   #main-container,
-  #masthead,
-  .main-section,
+  .container {
+    width: 100%;
+  
+}
+
+
+@media screen and (max-width: 640px) {
+  #main-container,
   .auth-image,
   #logo,
   nav {
